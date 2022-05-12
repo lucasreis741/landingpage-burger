@@ -1,0 +1,249 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+background-color: black;
+}
+
+#banner {
+    width: 980px;
+    height: 530px;
+    background-color: #feca12;
+    margin: auto;
+  
+}
+
+.banner_title h1,h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.banner_title h1{
+    font-size: 23px;
+    padding-top: 28px;
+}
+
+.banner_title  h2{
+    font-size: 15px;
+    color: black;
+  text-align: center;   
+}
+
+
+.banner_snack {
+    margin: auto;
+    background-image: url(/Landpage/hamburguer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    margin-top: 25px;
+    border-radius: 10px;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.container1 {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  
+
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    text-decoration: underline;
+    margin: 25px;
+    padding: 5px;
+    color: #f6c915;;
+
+}
+
+nav a:hover {
+    font-weight: bold;
+    background-color: black;
+}
+
+
+.banner2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 250px;
+   
+   
+}
+.banner3{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 160px;
+width: 300px;
+}
+
+.mainpage h1,h2 {
+    color: #f6c915;
+    text-align: center;
+    font-size: 25px;
+    line-height: 2px;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainpage_text h2{
+color: white;
+font-size: 12px;
+line-height: 15px;
+
+}
+
+.mainpage_ofert{
+font-size: 23px;
+color: #FFFFFF;
+text-align: center;
+margin-top: 15px;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 1px solid #f6c915;
+width: 120px;
+background-color:  black;
+}
+
+.section_container{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end ;
+height: 90px;
+}
+
+.section_img img{
+width: 18px;
+margin-right: 10px;
+}
+
+
+.menuMobile {
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    display: none;
+  
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #f6c915;
+
+}
+
+
+@media (max-width:1000px) {
+    #banner{
+    width: 370px;
+
+    }
+    .banner_snack{
+    width: 320px;
+    margin-top: 25px;
+    }
+    
+    .banner2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 30px;
+    }
+
+    .banner_snack{
+background-size: auto;
+
+    }
+    .section_container{
+   display: flex;
+   justify-content: center;
+align-items: center;
+ 
+
+    }
+
+    header .container {
+        Flex-direction: row;
+
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color:black;
+        color: #f6c915;
+
+    }
+
+    nav a{
+        color: #f6c915;
+
+    }
+
+    nav   a:hover{
+        color:#f6c915 ;
+        font-weight: bold;
+        background-color: #f6c915;
+    }
+    
+
+    header {
+        height: auto;
+    }
+
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .menuMobile_container{
+        display: flex;
+        justify-content: flex-end;
+        width: 325px;
+        height: 80px;
+        }
+}
