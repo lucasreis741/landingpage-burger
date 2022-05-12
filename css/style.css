@@ -41,7 +41,7 @@ background-color: black;
 
 .banner_snack {
     margin: auto;
-    background-image: url(/Landpage/hamburguer.png);
+    background-image: url('../imagens/hamburguer.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 800px;
